@@ -28,7 +28,7 @@ class NodeClient extends BaseClient {
   /// Keep-Alive packets. Ignored when the keepAlive option is false.
   /// Defaults to 1000.
   @Deprecated('To be removed in 1.0.0')
-  int get keepAliveMsecs => _httpOptions.keepAliveMsecs.round() as int;
+  int get keepAliveMsecs => _httpOptions.keepAliveMsecs as int;
 
   /// Creates new Node HTTP client.
   ///
